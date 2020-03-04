@@ -1,16 +1,23 @@
-1. Login to the streamer
-ssh -i vonnue-streamer-ops.pem ubuntu@54.251.186.203
-2. attach to tmux
-tmux a
-3. to move between session use
-ctrl+b then follwed by key 'n' or 'p'
-4. on screen 0 the transcoder will be running. You'll see something like below.
-[https @ 0x560fae9838c0] Opening 'https://tic.indonusa.net.id:8443/live/TIC.stream_720p/chunklist_w1638026233.m3u8' for reading
-If the command is broken, just run 
-./stream.sh
-5. to check the no of attempts go to screen 2
-cat attempt.txt
-6. to detach tmux type
-ctrl+b followed by 'd'
-7. to see tmux session type
-tmux ls
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAsD8K5B3pRtM0GC2CCsIX8hotd2rMNA4Hv5UUkZ5hSPmGjQ8OeqMN+6IB/goe
+YQwdLyTivWrC+7VFYUn91s0G7mZQbKtZ2S78KGrVsdMByCj/ZpevHGlCHgbRYsc4K1QSsDA1cOh7
+99VWwWXW6XoVoiIXKTf0B4r2YJ2zYa9swzByoBb/LEldDaGjFu/rGOR3e6SYYAxWiGgXoZUfWsdy
+lrEv0t7tUqunh78b+4GGdaigxEa4d9fxzJyEp37CulOg8CUwBwXxm5pO3yDkjTcNrBCHWnmDMCjB
+qxtfXOtfDI7d5ZybCoaVBIHlOoaKhw8b+A8oYwIJYorln8uBa4sUYQIDAQABAoIBAFKtwFYzEfP/
+sDiHYLHbS5BvZ1TV7OWej1P4g6WsPscVB2G05n3xb+XTokuiQ44TOL2c+CETrFSYPOve4g2aMN41
+cRUJbSTNPc1YENdSvUtAsE9YaPVTC4k6eY91FYx97CZq9yb4aO9iTUh8lc0BUJS2mVbkwL2pGttI
+H5Z7zPHjR5oGkSQBTXPvi0o1b6bFFBAuWlQPuSqrU1wNp2tJVHbYVi2nYK/ORmpZKlKhZcHVnZeu
+76ikZjOT8QkfnkluhrXY9GXArk0VhiIAE265YQeuzhCDKt7rxqXixMglkLHZOkLnDdhkKibFUX0x
+FVehrmZSDXUPWGg6F0bMBNdKxIECgYEA8Ag653He3+tZwZh4QqqjGQWwPUjjpwhmjjSsMuRI0oxz
+h3swwt2eRbPiZCpc3VOlrw/AxEQ+zdZLfsGNiowaaha/bUVLBH7B6vMq8fw/efdrWPIfIACBptYI
+Vxh+QOdJWXSfR8qNR3q2o6tGawPJQ7L4F11kritLUNw9lH7ZaV0CgYEAu/iIZfqctD9IfJ/38TSY
+JO21Hh4z92yEYmT5akpBm7VmhGMojPywM/3VN+KhwnxyMgLB+qqr3mqspXb09Gy8C1A9o9u79VMr
+w9nKM/3olzo1fMCKY29qChkkh5w0a/TTo4QY1K/NlR/hkeA7gW4qBCs9Z7HoHneCu5fC2pP3ctUC
+gYBWxALW6tiPxLlbO8ws/RWb0+yTGqgAFw9LVEry0oZoZZDVZniH2CiANbgeURnkf3oiv+UEjU7O
+hSohFcIeVOqvcq2byDKH23IpheD+PBqN8hwBuPP7U3OKZU/6e8YXnANtrLRu9Q8AyaD/pMf9ow67
+xBPeDkp4kvnUrugrp3bbmQKBgHIITkb/iD1Y/tKMAVCVBY+xnWTOEdySOqWueBjhP3gEzlKWDS2q
+xgJkhQtIM7XW5TgtsBwvmeBueppO1j/KDzIV1a8oSJiFglFoOGDeMlI7/+LUs5+rIXtK0XxraOnt
+Ns9F/gJZPLCxDJkAnVjhyh+JU9EqfpStD+RaJt2PUliZAoGBAME4kEwI8CXWFHd/WvtL8QRFNvy+
+C1AHHhwNun0/bTn94tAmh0IaVyO8DSlH4NXc6mMkxmSH902gvSwdfUGvfj1oQslFTzFbdQN080z9
+X+W9YIndaTAv0CtfY6p7bopuALmXJbHOVa5q3SZVGDDYPsq2hy9E8KYUQXAJCKSugI7E
+-----END RSA PRIVATE KEY-----
