@@ -1,2 +1,3 @@
-# Channel-TIC-Indonesia
-This is the repo for the TIC code and the credentials.
+#!/bin/bash
+​
+ssh -i vonnue-streamer-ops.pem ubuntu@54.251.186.203
