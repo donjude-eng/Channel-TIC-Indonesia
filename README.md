@@ -1,3 +1,5 @@
+```
+Vonnue-streamer-ops.pem
 -----BEGIN RSA PRIVATE KEY-----
 MIIEowIBAAKCAQEAsD8K5B3pRtM0GC2CCsIX8hotd2rMNA4Hv5UUkZ5hSPmGjQ8OeqMN+6IB/goe
 YQwdLyTivWrC+7VFYUn91s0G7mZQbKtZ2S78KGrVsdMByCj/ZpevHGlCHgbRYsc4K1QSsDA1cOh7
@@ -21,3 +23,9 @@ Ns9F/gJZPLCxDJkAnVjhyh+JU9EqfpStD+RaJt2PUliZAoGBAME4kEwI8CXWFHd/WvtL8QRFNvy+
 C1AHHhwNun0/bTn94tAmh0IaVyO8DSlH4NXc6mMkxmSH902gvSwdfUGvfj1oQslFTzFbdQN080z9
 X+W9YIndaTAv0CtfY6p7bopuALmXJbHOVa5q3SZVGDDYPsq2hy9E8KYUQXAJCKSugI7E
 -----END RSA PRIVATE KEY-----
+=======
+#!/bin/bash
+​
+ssh -i vonnue-streamer-ops.pem ubuntu@54.251.186.203
+master
+```
